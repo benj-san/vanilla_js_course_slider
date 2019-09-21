@@ -30,7 +30,7 @@ button{
 
 /* Slider */
 #container{
-    width : 80vw;
+    width : 70vw;
     height: 50vh;
     margin: 0 auto;
     position: relative;
@@ -48,6 +48,12 @@ button{
     top: 0;
     left: 0;
     object-fit: cover;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+#container > div #focused{
+    opacity: 1;
 }
 
 #container button{
