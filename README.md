@@ -5,12 +5,12 @@ This course is meant to help understanding how javascript works, and how it's me
 
 - const and let
 
--functions
+- functions
 
--target get elements (id class ...)
+- target get elements (id class ...)
 
--event listeners on mouse, clicks or keyboards action
+- event listeners on mouse, clicks or keyboards action
 
--arrays
+- arrays
 
--loops
+- loops
