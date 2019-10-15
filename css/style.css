@@ -15,11 +15,11 @@ body{
 }
 
 h1{
-    height: 5vh;
     font-size: 2.5rem;
     text-align: center;
     position: relative;
     z-index: 9;
+    margin: 30px auto;
 }
 
 button{
@@ -49,7 +49,7 @@ button{
     left: 0;
     object-fit: cover;
     opacity: 0;
-    transition: opacity 500ms;
+    transition: opacity 2000ms;
 }
 
 #container > div #focused{
@@ -76,8 +76,19 @@ button{
     width: 100%;
 }
 
-@media screen and (max-height: 750px){
-    h1{
-        transform: translateY(-15px);
-    }
+#positionBar{
+    width: 70vw;
+    height: 2px;
+    margin: 30px auto;
+    background-color: rgba(255,255,255,.5);
+    display:flex;
+}
+
+#positionBar button{
+    height: 100%;
+    background-color: transparent;
+}
+
+#positionBar button:first-of-type{
+    background-color: #a20006;
 }
